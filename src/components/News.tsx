@@ -64,14 +64,15 @@ const News: React.FC = () => {
             </div>
             
           
-                <button className="bg-yellow-500 text-white px-8 py-3 flex items-center rounded-full hover:bg-green-950 hover:text-white min-w-[220px] whitespace-nowrap cursor-pointer mt-8">
-            <span className="bg-green-900 px-6 py-2 rounded-full cursor-pointer">
-              View All Blogs
-            </span>
-            <span className="ml-2 px-3 py-2 h-6 w-6 rounded-full bg-white text-black flex items-center justify-center cursor-pointer">
-              →
-            </span>
-          </button>
+               <button className="group relative bg-yellow-500 flex items-center rounded-full p-1 hover:bg-yellow-600 transition-colors duration-300 focus:outline-none focus:ring-4 focus:ring-yellow-300">
+                <div className="bg-green-800 text-white px-8 py-3 rounded-full text-base font-medium flex-1 text-center transition-colors duration-300 group-hover:bg-green-900">
+                  View All Blogs
+                </div>
+
+                <div className="flex items-center  justify-center text-center  text-2xl  h-10 w-10 rounded-full bg-white text-green-800  font-bold ml-3 transition-colors duration-300 group-hover:bg-gray-100">
+                  →
+                </div>
+              </button>
            
           </div>
         </div>
@@ -104,13 +105,13 @@ const News: React.FC = () => {
                 <h3 className="text-xl font-bold text-gray-800 mb-3 leading-tight">
                   {post.title}
                 </h3>
-                <p className="text-black mb-4 overflow-hidden" style={{
+                {/* <p className="text-black mb-4 overflow-hidden" style={{
                   display: '-webkit-box',
                   WebkitLineClamp: 3,
                   WebkitBoxOrient: 'vertical'
                 }}>
                   {post.excerpt}
-                </p>
+                </p> */}
             
                   <button className="text-gray-800 font-semibold hover:text-orange-400 transition-colors duration-300 flex items-center">
                     Read More

@@ -10,15 +10,15 @@ const Education = () => {
             <span className="text-yellow-500">-</span>
             <span className="text-black ml-4">Education & Work</span>
           </h2>
-          <p className="text-5xl text-black italic mb-2">
+          <p className="text-4xl text-black italic mb-2">
             My{" "}
-            <span className="ext-5xl text-yellow-400 italic mb-2">
+            <span className="text-4xl text-yellow-400 italic mb-2">
               {" "}
               Academic and{" "}
             </span>{" "}
           </p>
-          <p className="text-5xl text-yellow-400 italic mb-2">
-            Professional <span className="text-5xl text-black"> Journey</span>
+          <p className="text-4xl text-yellow-400 italic mb-2">
+            Professional <span className="text-4xl text-black"> Journey</span>
           </p>
         </div>
 
