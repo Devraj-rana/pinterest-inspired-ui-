@@ -5,26 +5,26 @@ const PricingSection = () => {
   return (
     <section className="relative bg-[#344c36] text-white py-20 px-4 sm:px-8 md:px-16 lg:px-32 w-full mt-16">
       {/* Heading and CTA */}
-      <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12 gap-8">
+      <div className="flex flex-col lg:flex-row justify-between items-center text-center lg:text-left mb-12 gap-8">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
           <span className="text-yellow-400">-</span> Pricing Table
           <br />
           <br />
-          <span className="text-4xl sm:text-5xl">My</span>{" "}
-          <span className="text-yellow-400 italic text-4xl sm:text-5xl">
+          <span className="text-3xl sm:text-5xl">My</span>{" "}
+          <span className="text-yellow-400 italic text-3xl sm:text-5xl">
             Pricing Model
           </span>
         </h2>
 
-           <button className="group relative bg-yellow-500 flex items-center rounded-full p-1 hover:bg-yellow-600 transition-colors duration-300 focus:outline-none focus:ring-4 focus:ring-yellow-300">
-                <div className="bg-green-800 text-white px-8 py-3 rounded-full text-base font-medium flex-1 text-center transition-colors duration-300 group-hover:bg-green-900">
-                 Get started
-                </div>
+        <button className="group relative bg-yellow-500 flex items-center rounded-full p-1 hover:bg-yellow-600 transition-colors duration-300 focus:outline-none focus:ring-4 focus:ring-yellow-300">
+          <div className="bg-green-800 text-white px-8 py-3 rounded-full text-base font-medium flex-1 text-center transition-colors duration-300 group-hover:bg-green-900">
+            Get started
+          </div>
 
-                <div className="flex items-center  justify-center text-center  text-2xl  h-10 w-10 rounded-full bg-white text-green-800  font-bold ml-3 transition-colors duration-300 group-hover:bg-gray-100">
-                  →
-                </div>
-              </button>
+          <div className="flex items-center justify-center text-center text-2xl h-10 w-10 rounded-full bg-white text-green-800 font-bold ml-3 transition-colors duration-300 group-hover:bg-gray-100">
+            →
+          </div>
+        </button>
       </div>
 
       {/* Pricing Cards */}

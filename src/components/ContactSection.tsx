@@ -53,14 +53,14 @@ const ContactSection = () => {
       <div className="bg-white rounded-3xl p-4 sm:p-8 md:p-12 lg:p-20 flex flex-col lg:flex-row items-center justify-center gap-10">
         {/* Left: Contact Info */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <span className="text-yellow-500 text-xl font-semibold">
-            - Contact Us
-          </span>
-          <h1 className="text-4xl sm:text-5xl font-bold text-black mt-5 leading-snug">
-            Let's Talk for
+          <div className="text-yellow-500 text-xl font-semibold">
+            - <span className="text-black"> Contact Us </span>
+          </div>
+          <h1 className="text-3xl sm:text-5xl font-bold text-black mt-5 leading-snug">
+            Let&apos;s Talk for
             <span className="text-yellow-400"> Your</span>
           </h1>
-          <h1 className="text-4xl sm:text-5xl font-bold text-yellow-400">
+          <h1 className="text-3xl sm:text-5xl font-bold text-yellow-400">
             Next Projects
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 mt-6">

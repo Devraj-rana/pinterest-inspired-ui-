@@ -6,18 +6,18 @@ const Education = () => {
 
       <section id="education" className="relative py-20 px-4 mt-32">
         <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">
+          <h2 className="text-3xl font-bold mb-8">
             <span className="text-yellow-500">-</span>
             <span className="text-black ml-4">Education & Work</span>
           </h2>
-          <p className="text-4xl text-black italic mb-2">
+          <p className="text-3xl text-black mb-2">
             My{" "}
-            <span className="text-4xl text-yellow-400 italic mb-2">
+            <span className="text-3xl text-yellow-400 mb-2">
               {" "}
               Academic and{" "}
             </span>{" "}
           </p>
-          <p className="text-4xl text-yellow-400 italic mb-2">
+          <p className="text-3xl text-yellow-400  mb-2">
             Professional <span className="text-4xl text-black"> Journey</span>
           </p>
         </div>
@@ -35,7 +35,7 @@ const Education = () => {
             <div className="space-y-8">
               <div className="border-l-4 border-gray-400 pl-6 py-2">
                 <p className="text-black">2012 -2014</p>
-                <h4 className="text-2xl font-bold text-black mt-1">
+                <h4 className="text-2xl  text-black mt-1">
                   Harmony Institute
                 </h4>
                 <p className="text-black mt-1">Master in Visual Arts</p>
@@ -43,7 +43,7 @@ const Education = () => {
 
               <div className="border-l-4 border-gray-400 pl-6 py-2">
                 <p className="text-black">2008 -2012</p>
-                <h4 className="text-2xl font-bold text-black mt-1">
+                <h4 className="text-2xl  text-black mt-1">
                   Aurora Academy
                 </h4>
                 <p className="text-black mt-1">Master in Visual Arts</p>
@@ -51,7 +51,7 @@ const Education = () => {
 
               <div className="border-l-4 border-gray-400 pl-6 py-2">
                 <p className="text-black">1996 -2008</p>
-                <h4 className="text-2xl font-bold text-black mt-1">
+                <h4 className="text-2xl  text-black mt-1">
                   Crystalbrook
                 </h4>
                 <p className="text-black mt-1">Master in Visual Arts</p>
@@ -71,7 +71,7 @@ const Education = () => {
             <div className="space-y-8">
               <div className="border-l-4 border-gray-400 pl-6 py-2">
                 <p className="text-black">2018 -2024</p>
-                <h4 className="text-2xl font-bold text-black mt-1">
+                <h4 className="text-2xl text-black mt-1">
                   Insightlancer
                 </h4>
                 <p className="text-black mt-1">Master in Visual Arts</p>
@@ -79,7 +79,7 @@ const Education = () => {
 
               <div className="border-l-4 border-gray-400 pl-6 py-2">
                 <p className="text-black">2016 -2018</p>
-                <h4 className="text-2xl font-bold text-black mt-1">
+                <h4 className="text-2xl text-black mt-1">
                   Self-Employed
                 </h4>
                 <p className="text-black mt-1">Master in Visual Arts</p>
@@ -87,7 +87,7 @@ const Education = () => {
 
               <div className="border-l-4 border-gray-400 pl-6 py-2">
                 <p className="text-black">2014 -2016</p>
-                <h4 className="text-2xl font-bold text-black mt-1">
+                <h4 className="text-2xl text-black mt-1">
                   KG Graphics Studio
                 </h4>
                 <p className="text-black mt-1">Master in Visual Arts</p>
